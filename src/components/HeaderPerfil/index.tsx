@@ -25,7 +25,7 @@ const HeaderPerfil = ({ heroBanner }: Props) => {
     <header>
       <S.Section>
         <Container>
-          <a href="/">Restaurantes</a>
+          <Link to="/">Restaurantes</Link>
           <Link to="/" className="logo-primeiro">
             <h1>
               <img src={logo} alt="" />
